@@ -99,4 +99,7 @@ typedef void (^ClicksAlertBlock)(Alert *alertView, NSInteger buttonIndex);
 - (void)fixBug001;
 - (void)fixBug002;
 - (void)fixBug003;
+- (void)helloWord003;
+- (void)helloWord004;
+
 @end
