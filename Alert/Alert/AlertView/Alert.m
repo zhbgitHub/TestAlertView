@@ -530,24 +530,7 @@ CGRect getScreenBounds() {
 }
 
 
-- (void)fixBug001
-{
-    NSLog(@"fixBug001");
-}
-- (void)fixBug002
-{
-    NSLog(@"fixBug001");
-}
-- (void)fixBug003
-{
-    NSLog(@"fixBug003");
 
-- (void)helloWord003
-{
-    NSLog(@"helloword003");
-}
-- (void)helloWord004
-{
-    NSLog(@"helloWord004");
-}
+
+    
 @end
