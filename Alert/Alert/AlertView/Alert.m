@@ -518,6 +518,7 @@ CGRect getScreenBounds() {
     _clickBlock = [clickBlock copy];
 }
 
+
 - (void)helloWord001
 {
     NSLog(@"helloword001");
@@ -526,6 +527,16 @@ CGRect getScreenBounds() {
 - (void)helloWord002
 {
     NSLog(@"helloword002");
+}
+
+
+- (void)fixBug001
+{
+    NSLog(@"fixBug001");
+}
+- (void)fixBug002
+{
+    NSLog(@"fixBug001");
 }
 
 @end
