@@ -542,4 +542,8 @@ CGRect getScreenBounds() {
 {
     NSLog(@"helloword003");
 }
+- (void)helloWord004
+{
+    NSLog(@"helloWord004");
+}
 @end
