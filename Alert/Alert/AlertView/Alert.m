@@ -516,4 +516,9 @@ CGRect getScreenBounds() {
     _clickBlock = [clickBlock copy];
 }
 
+- (void)fixBug001
+{
+    NSLog(@"fixBug001");
+}
+
 @end
