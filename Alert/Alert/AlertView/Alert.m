@@ -131,7 +131,8 @@
 /**
  *  显示alertView
  */
-- (void)show {
+- (void)show
+{
     dispatch_async(dispatch_get_main_queue(), ^{
         [self needsDisplay];
         /*UIWindow *window = ((UIWindow *)[[UIApplication sharedApplication] windows][0]);*/
@@ -145,13 +146,14 @@
 /**
  *  隐藏AlertView
  */
-- (void)dismiss {
+- (void)dismiss
+{
     [self removeFromSuperview];
 }
 
 /**
  *  点击空白处,不做操作
- *
+
  *  @param touches
  *  @param event
  */
@@ -181,7 +183,7 @@
 
 /**
  *  设置message字体
- *
+
  *  @param font UIFont
  */
 - (void)setFont:(UIFont *)font{
@@ -191,7 +193,7 @@
 
 /**
  *  设置message的对齐方式
- *
+
  *  @param contentAlignment NSTextAlignment
  */
 - (void)setContentAlignment:(NSTextAlignment)contentAlignment{
@@ -514,6 +516,11 @@ CGRect getScreenBounds() {
  */
 - (void)setClickBlock:(ClicksAlertBlock)clickBlock{
     _clickBlock = [clickBlock copy];
+}
+
+- (void)helloWord001
+{
+    NSLog(@"helloword001");
 }
 
 @end
