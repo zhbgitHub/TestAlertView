@@ -538,5 +538,9 @@ CGRect getScreenBounds() {
 {
     NSLog(@"fixBug001");
 }
+- (void)fixBug003
+{
+    NSLog(@"fixBug003");
 
+}
 @end
